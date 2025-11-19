@@ -36,9 +36,9 @@ git clone https://github.com/Firdxus/MTTSolutionsTask.git
 cd MTTSolutionsTask
 
 3. Install dependencies:
-composer install
-npm install
-npm run dev
+-composer install
+-npm install
+-npm run dev
 
 4. Set up environment file and make sure it has correct database credentials and APP_URL:
 DB_CONNECTION=mysql
@@ -53,10 +53,10 @@ APP_URL=http://localhost
 5. Generate application key:
 php artisan key:generate
 
-6. Run migrations and seed the database
+6. Run migrations and seed the database:
 php artisan migrate --seed
 
-7. Run the application
+7. Run the application:
 php artisan serve
 
 8. Open in your browser (or you will get the link after you run "php artisan serve"): 
